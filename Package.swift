@@ -41,6 +41,7 @@ let package = Package(
         ]),
         .target(name: "SourceryFramework", dependencies: [
           "PathKit",
+          "SourceryRuntime",
           "SourceKittenFramework",
           "SourceryUtils"
         ]),
